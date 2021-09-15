@@ -9,7 +9,7 @@ class BankAccount:
 
     def __init__(self, bal):
         self.__balance = bal
-
+# Only on attribute ^ "balance"
       # The deposit method makes a deposit into the
       # account.
 
@@ -20,6 +20,9 @@ class BankAccount:
       # from the account.
 
     def withdraw(self, amount):
+      if amount < 0:
+        print('You Fool!!!')
+      else:
         if self.__balance >= amount:
             self.__balance -= amount
         else:
@@ -32,6 +35,5 @@ class BankAccount:
         return self.__balance
 
 
-
-##    def __str__(self):
-##        return 'The balance is $' + format(self.__balance, ',.2f')
+   ## def __str__(self):
+        return 'The balance is $' + format(self.__balance, ',.2f')

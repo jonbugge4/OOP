@@ -30,5 +30,11 @@ class Class_name:
 
 _init__ is initalizes
 
+__ allows for attributes to remain hidden
+
+
+
+
+
 self 
 """
