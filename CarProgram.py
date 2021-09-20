@@ -1,6 +1,7 @@
 import CarClass as cc
 
 def main():
+# Instance of Attribute in a class.
     car = cc.CarClass(2002, 'Chevy', 0)
     
 
