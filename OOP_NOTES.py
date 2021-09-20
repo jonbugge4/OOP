@@ -34,7 +34,24 @@ __ allows for attributes to remain hidden
 
 
 
+attribute instances are specific instances of a class (instance attribute)
 
+.capitalize() will capitlize letters in a string
+
+
+UML DIagram: standard diagrams for graphically depicting object-oriented systems
+
+MIDTERM: 25 MC + Coding
+MC Questinos: 50 from a pool, 25 selected --> all from power point
+
+
+--------------------------------------------------
+INHERITANCE
+
+
+- All vehicles are 'automobiles', but not all automobiles are
+sedans. For sedans we want the number of doors, for trucks,
+we want the drive type, etc...
 
 self 
 """
