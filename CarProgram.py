@@ -1,8 +1,18 @@
 import CarClass as cc
 
 def main():
-    year = input('What is model year is your car? ')
-    make = input('What type of car are you driving? ')
-    speed = input('How fast are you driving? ')
+    car = cc.CarClass(2002, 'Chevy', 0)
+    
 
-car = CarClass.Car(year, make, )
+    for counter in range(1,5):
+        car.accelerate()
+        car.get_speed()
+        print('The car is traveling at ',car.get_speed(), 'miles per hour')
+        
+    
+    for counter in range(1,5):
+        car.brake()
+        car.get_speed()
+        print('The car is traveling at ',car.get_speed(), 'miles per hour')
+
+main()
